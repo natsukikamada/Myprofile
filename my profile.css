@@ -1,0 +1,101 @@
+h1{
+    color: rgb(243, 239, 239);
+    font-style: italic;
+    font-weight: bold;
+}
+body{
+background:#000;
+color:rgb(245, 240, 240);
+font-size: large;
+}
+a.nav-list{
+color:rgb(245, 240, 240);
+font-weight: bolder;
+}
+h2{
+  font-style: italic;
+}
+p{
+  font-style: inherit;
+  font-weight: bold;
+}
+a{
+  color: rgb(7, 193, 250);
+}
+li.list-tytle {
+  color: rgb(7, 193, 250);
+  font-weight: lighter;
+  font-size: larger;
+}
+
+img{
+    width: 75%;
+    height: auto;
+}
+.container1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 60px;
+    height: 120px;
+  }
+.header-nav {
+    display: flex;
+    background-color: #8A0829;
+    color: aliceblue;
+    list-style-type: none;
+  }
+.nav-list {
+    margin: 0 30px;
+    font-size:50px;
+    font-weight: bold;
+  }
+.nav-list:hover {
+    color: rgb(151, 45, 45);
+  }
+@media screen and (max-width: 900px) {
+  .hamburger {
+    display: block;
+  }
+  .hamburger div {
+    background-color: #fafafa;
+    border-radius: 20px;
+    padding: 2px 5px;
+    margin: 4px 0;
+  }
+  .hamburger p {
+    text-align: center;
+    font-size: 10px;
+    font-weight: bold;
+  }
+  .header-nav {
+    display: none;
+    position: absolute;
+    flex-direction: column;
+    top: 60px;
+    right: 0;
+    width: 100%;
+    height: auto;
+  }
+  .active {
+    display: flex;
+  }
+  .nav-list {
+    text-align: center;
+    margin: 20px 0;
+    width: 100%;
+  }
+}
+footer{
+  text-align: center;
+  margin: 20px 0;
+}
+  /* フッターの固定 */
+div#footer-fixed
+{
+    position: fixed;            /* フッターの固定 */
+    bottom: 0px;                /* 位置(下0px) */
+    left: 0px;                  /* 位置(左0px) */
+    width: 100%;                /* 横幅100%　*/
+    height: 140px;              /* 縦幅140px */
+}
